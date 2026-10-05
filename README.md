@@ -1,13 +1,13 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimefunAdvancements-Igdrassil/main/banner.svg" alt="SlimefunAdvancements-Igdrassil Banner" width="920" />
+  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunAdvancements-Igdrassil/main/banner.svg" alt="SlimefunAdvancements-Igdrassil Banner" width="920" />
 
 # ⚡ SlimefunAdvancements-Igdrassil
 
 **SLIMEFUN4 ADDON · DRAKES EDITION**
 
 <p>
-  <a href="https://github.com/DrakesCraft-Labs/SlimefunAdvancements-Igdrassil"><img src="https://img.shields.io/badge/GitHub-SlimefunAdvancements-Igdrassil-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://github.com/SlimefunNewHorizons/SlimefunAdvancements-Igdrassil"><img src="https://img.shields.io/badge/GitHub-SlimefunAdvancements-Igdrassil-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
   <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
   <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
@@ -51,7 +51,7 @@ Todo el contenido, recetas y maquinaria se desbloquean e investigan directamente
 |---|---|
 | **Servidor** | Paper / Purpur / Folia **1.21.11** |
 | **Java** | **Java 21** LTS |
-| **Core** | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| **Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
 | **Lado** | 100% Servidor (Server-side) |
 
 ---
@@ -66,7 +66,7 @@ Todo el contenido, recetas y maquinaria se desbloquean e investigan directamente
 
 <div align="center">
 
-**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/DrakesCraft-Labs)**  
+**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
 Licencia **GPL-3.0-only** / **MIT**.
 
 </div>
@@ -75,7 +75,7 @@ Licencia **GPL-3.0-only** / **MIT**.
 
 ## 📄 License & Upstream Attribution
 
-This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/DrakesCraft-Labs).
+This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
 - **Original Project:** Created by the upstream authors and the open-source community.
 - **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
