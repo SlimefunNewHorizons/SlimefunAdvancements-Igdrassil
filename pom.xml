@@ -19,6 +19,10 @@
 
     <repositories>
         <repository>
+            <id>drakescraft-labs-maven</id>
+            <url>https://maven.drakescraft.cl/</url>
+        </repository>
+        <repository>
             <id>papermc</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
@@ -192,9 +196,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.balugaq</groupId>
-            <artifactId>JustEnoughGuide</artifactId>
-            <version>67995bd0f9</version>
+            <groupId>com.github.drakescraft_labs</groupId>
+            <artifactId>JustEnoughGuide-Igdrassil</artifactId>
+            <version>2.1.45</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
