@@ -48,14 +48,22 @@ public class VanillaHook {
 
         Utils.listen(new PlayerJoinListener());
         Utils.listen(new AdvancementListener());
-        reload();
+        reload(true);
     }
 
     public void reload() {
+        reload(false);
+    }
+
+    private void reload(boolean firstLoad) {
         if (!initialized) {
             init();
+            return;
         }
-        removeExistingAdvancements();
+        // En el arranque no hay nada nuestro que quitar: evita Bukkit.reloadData() (recarga completa de datapacks/recetas, ~11 min con ~195 addons).
+        if (!firstLoad) {
+            removeExistingAdvancements();
+        }
         loadedKeys.clear();
         logVanillaRootBackground();
         registerGroups();
