@@ -200,6 +200,12 @@ public class VanillaHook {
 
     private void loadAdvancement(NamespacedKey key, JsonObject json) {
         try {
+            // Bukkit loads persisted advancements before plugins enable. Keep their
+            // existing progress instead of trying to register the same key again.
+            if (Bukkit.getAdvancement(key) != null) {
+                loadedKeys.add(key);
+                return;
+            }
             org.bukkit.advancement.Advancement loaded = Bukkit.getUnsafe().loadAdvancement(key, json.toString());
             if (loaded != null) {
                 loadedKeys.add(key);

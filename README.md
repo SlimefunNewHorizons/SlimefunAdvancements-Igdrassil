@@ -39,9 +39,13 @@ Todo el contenido, recetas y maquinaria se desbloquean e investigan directamente
 
 ## ⚙️ Características y Sistemas Principales
 
-* 🚀 **Rendimiento Optimizado**: Totalmente preparado para Java 21 sobre Paper 1.21.11, sin pausas de Garbage Collector ni telemetría externa.
-* 🛡️ **Seguridad e Integridad**: Transacciones atómicas de almacenamiento y protección estricta de inventarios.
-* 🎮 **Integración Total**: Compatible con Slimefun4-Drake, redes de logística NetworksV6, maquinaria pesada y economía global.
+* Registra grupos, criterios y avances de Slimefun, con seguimiento del progreso de jugadores.
+* Reutiliza avances que Bukkit ya cargó desde disco, sin volver a registrar sus claves ni borrar su progreso.
+* El inicio evita una recarga global de datapacks. La recarga manual conserva su configuración independiente.
+
+El parche de registro idempotente se valida por separado de la carga del plugin:
+producción usa 1.21.11 / Java 21; las pruebas en T2 usan 26.2 / Java 25.
+Compilar y superar pruebas unitarias no acredita una prueba en ejecución en ninguna de las dos versiones.
 
 ---
 
