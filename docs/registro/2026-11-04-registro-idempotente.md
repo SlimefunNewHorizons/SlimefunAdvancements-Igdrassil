@@ -1,6 +1,24 @@
 # Registro idempotente de avances — tickets #495 y #565
 
-Estado: parche pendiente de compilación y prueba en ejecución. No desplegado.
+Estado actualizado 2026-11-05: compilado y tres pruebas correctas en JDK 21 y
+JDK 25; falta prueba en ejecución. No desplegado.
+
+La integración encontró JaCoCo 0.8.7 instrumentando clases modernas con
+`Unsupported class file major version 65`, incluso con `BUILD SUCCESS`.
+Actualizarlo a 0.8.14 elimina esas excepciones conservando la cobertura.
+Esta versión soporta Java 25 según el
+[historial oficial](https://www.jacoco.org/jacoco/trunk/doc/changes.html).
+Dos `clean package` protegidos: 18,007 s en JDK 21 y 19,421 s en JDK 25;
+3 pruebas por ejecución, cero fallos, errores, omitidas o errores de instrumentación.
+
+Artefacto final `target/sfadvancements.jar`: 144282 bytes,
+SHA-256 `23b71ab3f80752a619837c0afef56527000d28b6fdf9f3663f3dd3bdfe848c9d`,
+62 clases, bytecode máximo 60 (target 16 conservado); CRC correcto y guarda
+`getAdvancement` presente. Compilar con JDK 25 no demuestra compatibilidad
+funcional con Paper 26.2.
+Faltan los dos arranques reales y comprobar conservación del progreso.
+
+El resto de este documento conserva la evidencia de la pasada anterior.
 Pasada del 2026-11-04, iniciada a las 12:06 CLT (UTC-4).
 
 ## Evidencia y causa

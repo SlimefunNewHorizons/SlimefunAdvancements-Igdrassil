@@ -43,9 +43,10 @@ Todo el contenido, recetas y maquinaria se desbloquean e investigan directamente
 * Reutiliza avances que Bukkit ya cargó desde disco, sin volver a registrar sus claves ni borrar su progreso.
 * El inicio evita una recarga global de datapacks. La recarga manual conserva su configuración independiente.
 
-El parche de registro idempotente se valida por separado de la carga del plugin:
-producción usa 1.21.11 / Java 21; las pruebas en T2 usan 26.2 / Java 25.
-Compilar y superar pruebas unitarias no acredita una prueba en ejecución en ninguna de las dos versiones.
+El registro idempotente compila y supera sus tres pruebas unitarias con JDK 21
+y JDK 25 (JaCoCo 0.8.14, API Paper 1.21.1 y target 16 conservados).
+Falta probar la carga y dos arranques conservando avances en Paper 1.21.11 y
+en T2/Paper 26.2. El build con JDK 25 no acredita compatibilidad funcional 26.x.
 
 ---
 
