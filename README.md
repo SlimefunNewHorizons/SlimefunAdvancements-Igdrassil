@@ -48,6 +48,10 @@ y JDK 25 (JaCoCo 0.8.14, API Paper 1.21.1 y target 16 conservados).
 Falta probar la carga y dos arranques conservando avances en Paper 1.21.11 y
 en T2/Paper 26.2. El build con JDK 25 no acredita compatibilidad funcional 26.x.
 
+El jar final declara `paperweight-mappings-namespace: mojang` mediante Maven
+Shade para evitar el remapeo de Paper. Esta marca no sustituye las pruebas
+de ejecución pendientes.
+
 ---
 
 ## 📋 Compatibilidad Técnica
