@@ -4,6 +4,13 @@
 > **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [SlimefunGuguProject](https://github.com/SlimefunGuguProject) (upstream [SlimefunGuguProject/SlimefunAdvancements](https://github.com/SlimefunGuguProject/SlimefunAdvancements)), [char3210](https://github.com/char3210), [qwertyuioplkjhgfd](https://github.com/qwertyuioplkjhgfd), [ybw0014](https://github.com/ybw0014), [JustAHuman-xD](https://github.com/JustAHuman-xD), [balugaq](https://github.com/balugaq), [shixinzia](https://github.com/shixinzia), char321 (plugin.yml). Licencia original: **GNU General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
 <!-- credits:end -->
 
+<!-- legacy-notice:start -->
+> [!WARNING]
+> **Legacy / Superseded Repository (Not Archived)**
+> **EN:** Historical Igdrassil fork of SlimefunAdvancements. Active development has moved to [SlimefunNewHorizons/Drakes-Suites](https://github.com/SlimefunNewHorizons/Drakes-Suites) and the active `26.x` ecosystem on [Slimefun6](https://github.com/SlimefunNewHorizons/Slimefun6). This repository is intentionally kept unarchived for historical reference, upstream attribution, and git history.
+>
+> **ES:** Fork histórico de SlimefunAdvancements de la etapa Igdrassil. El desarrollo activo continúa en [SlimefunNewHorizons/Drakes-Suites](https://github.com/SlimefunNewHorizons/Drakes-Suites) y el ecosistema activo `26.x` sobre [Slimefun6](https://github.com/SlimefunNewHorizons/Slimefun6). Este repositorio se mantiene intencionalmente sin archivar como referencia histórica, atribución upstream e historial de git.
+<!-- legacy-notice:end -->
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunAdvancements-Igdrassil/main/banner.svg" alt="SlimefunAdvancements-Igdrassil Banner" width="920" />
